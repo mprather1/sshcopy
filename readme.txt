@@ -1,0 +1,1 @@
+Run by opening a terminal in the folder containing this file and typing "bash install.sh" into the terminal. Don't use sudo. Restart your terminal. Run this program when you want to set up password free ssh access to a remote computer by typing 'sshc' will run this program. Do not do this more than once for each remote computer.
