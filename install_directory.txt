@@ -1,1 +1,0 @@
-/media/Shared/Development/justins_scripts/ssh-copy/
