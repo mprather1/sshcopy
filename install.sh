@@ -1,4 +1,5 @@
 current_directory="$(pwd)"
+touch install_directory.txt
 
 echo "Checking for .bash_aliases...
 "
@@ -14,10 +15,12 @@ fi
 echo "alias sshcopy='bash ${current_directory}/ssh_copy.sh'" >> ~/.bash_aliases
 echo "${current_directory}/" > install_directory.txt
 install_directory=$(cat install_directory.txt)
-printf "%s" "alias sshcopy_update='cd ${install_directory} && git pull origin master'" >> ~/.bash_aliases
+printf "alias sshcopy_update='cd ${install_directory} && git pull origin master'\n" >> ~/.bash_aliases
 
-echo "All done!!"
-echo "Type 'sshcopy' into terminal to setup password free connection to a remote computer!!"
+echo "
+All done!!"
+echo "
+Type 'sshcopy' into terminal to setup password free connection to a remote computer!!"
 echo "Type sshcopy_update into terminal to update!!"
 echo "
 Go fuck yourself!!"

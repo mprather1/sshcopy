@@ -34,6 +34,7 @@ read shortcut
 
 echo "alias ${shortcut}='ssh ${name}@${ipadd}'" >> ~/.bash_aliases
 
-echo "All done!!"
+echo "
+All done!!"
 echo "
 Go fuck yourself!!"
